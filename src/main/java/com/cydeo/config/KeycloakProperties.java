@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 @Component
 @Getter
 @Setter
-public class KeycloackProperties {
+public class KeycloakProperties {
     @Value("${keycloak.realm}")
     private String realm;
     @Value("${keycloak.auth-server-url}")
